@@ -18,6 +18,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  background-color: #fff;
 }
 header .logo_header img {
   width: 100px;
