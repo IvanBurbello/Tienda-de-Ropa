@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: yellow;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header .logo_header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+header nav {
+  display: flex;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  margin-left: 20px;
+}/*# sourceMappingURL=style.css.map */
