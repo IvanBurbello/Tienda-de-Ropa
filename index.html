@@ -18,7 +18,7 @@
 <body>
     <header>
         <div class="logo_header">
-            <img src="img/LogoBendBlanco.png" alt="Logo">
+            <img id="logo" src="img/LogoBendBlanco.png" alt="Logo">
         </div>
         <nav class="nav">
             <ul>
@@ -27,12 +27,17 @@
                 <li><a href="#">SHOP</a></li>
                 <li><a href="#">ABOUT US</a></li>
             </ul>
-           <!--  <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-            </ul> -->
+            
+            <div class="btn_claro_oscuro">
+                <p class="am">AM</p>
+                <i class="fa-solid fa-sun"></i>
+                <p class="pm">PM</p>
+            </div>
+
+            <ul>
+                <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-opencart"></i></a></li>
+            </ul>
         </nav>
       
     </header>
@@ -41,9 +46,7 @@
         <div class="container">
             <div class="slide">
                 <div class="imgs">
-                    <img class="visible" src="img/LogoBendNegro.png" alt="">
-                    <img src="img/LogoBendNegro.png" alt="">
-                    <img src="img/LogoBendNegro.png" alt="">
+                    <img class="fotos" src="img/foto1.jpg" alt="">
                 </div>
             </div>
             <div class="btn_slide">
@@ -56,7 +59,46 @@
         </div>
     </section>
 
-    <section></section>
+    <br>
+    <br>
+    <br>
+
+    <section>
+        <div class="container_mas_vendido">
+            <div class="container_cards_1">
+                <div class="card">
+                    <div class="titulo">
+                        <h2>AirBends</h2>
+                        <p>Talle: 36-45</p>
+                    </div>
+                    <br>
+                    <div class="colores">
+                        <div class="negro"></div>
+                        <div class="blanco"></div>
+                        <div class="azul"></div>
+                    </div>
+                    <br>
+                    <div class="carrito_precio">
+                        <i class="fa-brands fa-opencart"></i>
+                        <div class="precio">
+                            <p>$20.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    
+                </div>
+            </div>
+            <div class="container_cards_2">
+                <div class="card">
+
+                </div>
+                <div class="card">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
     <section></section>
     <div>
         
@@ -64,5 +106,8 @@
     <footer>
         
     </footer>
+
+    <script src="js/slide.js"></script>
+    <script src="js/modoOscuroClaro.js"></script>
 </body>
 </html>

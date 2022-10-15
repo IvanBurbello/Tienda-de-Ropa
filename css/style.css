@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: yellow;
 }
 
 a {
@@ -12,6 +11,14 @@ a {
 
 li {
   list-style: none;
+}
+
+.black {
+  background: black !important;
+  color: white !important;
+}
+.black a {
+  color: white !important;
 }
 
 header {
@@ -26,6 +33,8 @@ header .logo_header img {
 }
 header nav {
   display: flex;
+  align-items: center;
+  gap: 50px;
 }
 header nav ul {
   display: flex;
@@ -33,17 +42,26 @@ header nav ul {
 header nav ul li {
   margin-left: 20px;
 }
+header nav .btn_claro_oscuro {
+  display: flex;
+  padding: 5px 10px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  cursor: pointer;
+}
+header nav .btn_claro_oscuro .fa-sun {
+  margin-right: 20px;
+}
+header nav .btn_claro_oscuro .fa-moon {
+  margin-left: 20px;
+}
 
 .container .slide .imgs {
   display: flex;
 }
 .container .slide .imgs img {
-  height: calc(100vh - 90px);
+  height: calc(100vh - 94px);
   width: 100%;
-  display: none;
-}
-.container .slide .imgs .visible {
-  display: block;
 }
 .container .btn_slide {
   display: flex;
@@ -52,12 +70,17 @@ header nav ul li {
   margin-top: -50px;
 }
 .container .btn_slide i {
-  color: #fff;
+  color: #000;
   font-size: 20px;
   background: transparent;
   margin-left: 20px;
+  cursor: pointer;
 }
 .container .btn_slide .active {
-  border: 2px solid red;
+  border: 2px solid #fff;
   border-radius: 50%;
+}
+
+.card .titulo {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
