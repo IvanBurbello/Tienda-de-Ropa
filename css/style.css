@@ -24,37 +24,45 @@ li {
 header {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   background-color: #fff;
+}
+header .logo_header {
+  display: flex;
+  align-items: center;
 }
 header .logo_header img {
   width: 90px;
   height: 90px;
   border-radius: 50%;
 }
-header nav {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-}
-header nav ul {
+header .logo_header nav ul {
   display: flex;
 }
-header nav ul li {
+header .logo_header nav ul li {
   margin-left: 20px;
 }
-header nav .btn_claro_oscuro {
+header .container_other_icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header .container_other_icons .btn_claro_oscuro {
   display: flex;
   padding: 5px 10px;
   border: 2px solid #000;
   border-radius: 20px;
   cursor: pointer;
 }
-header nav .btn_claro_oscuro .fa-sun {
+header .container_other_icons .btn_claro_oscuro .fa-sun {
   margin-right: 20px;
 }
-header nav .btn_claro_oscuro .fa-moon {
+header .container_other_icons .btn_claro_oscuro .fa-moon {
   margin-left: 20px;
+}
+header .container_other_icons ul {
+  display: flex;
+  gap: 10px;
 }
 
 .container .slide .imgs {
