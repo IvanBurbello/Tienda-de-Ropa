@@ -1,5 +1,11 @@
 @import 'universales'
 
+.black
+    background: black !important
+    color: white !important
+    a
+        color: white !important
+
 header
     display: flex
     align-items: center
@@ -12,10 +18,22 @@ header
             border-radius: 50%
     nav
         display: flex
+        align-items: center
+        gap: 50px
         ul
             display: flex
             li
                 margin-left: 20px    
+        .btn_claro_oscuro
+            display: flex
+            padding: 5px 10px
+            border: 2px solid #000
+            border-radius: 20px
+            cursor: pointer
+            .fa-sun
+                margin-right: 20px
+            .fa-moon
+                margin-left: 20px
             
             
 
@@ -24,21 +42,23 @@ header
         .imgs
             display: flex
             img
-                height: calc(100vh - 90px)
+                height: calc(100vh - 94px)
                 width: 100%
-                display: none
-            .visible
-                display: block
     .btn_slide
         display: flex
         justify-content: center
         align-items: center
         margin-top: -50px
         i
-            color: #fff
+            color: #000
             font-size: 20px
             background: transparent
             margin-left: 20px
+            cursor: pointer
         .active
-            border: 2px solid red
+            border: 2px solid #fff
             border-radius: 50%
+
+.card
+    .titulo
+        display: flex
