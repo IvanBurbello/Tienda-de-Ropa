@@ -21,8 +21,8 @@ header {
   background-color: #fff;
 }
 header .logo_header img {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
 }
 header nav {
@@ -33,4 +33,32 @@ header nav ul {
 }
 header nav ul li {
   margin-left: 20px;
+}
+
+.container .slide .imgs {
+  display: flex;
+}
+.container .slide .imgs img {
+  height: calc(100vh - 90px);
+  width: 100%;
+  display: none;
+}
+.container .slide .imgs .visible {
+  display: block;
+}
+.container .btn_slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+}
+.container .btn_slide i {
+  color: #fff;
+  font-size: 20px;
+  background: transparent;
+  margin-left: 20px;
+}
+.container .btn_slide .active {
+  border: 2px solid red;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */

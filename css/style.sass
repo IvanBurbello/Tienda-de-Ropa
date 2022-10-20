@@ -7,8 +7,8 @@ header
     background-color: #fff
     .logo_header
         img
-            width: 100px
-            height: 100px
+            width: 90px
+            height: 90px
             border-radius: 50%
     nav
         display: flex
@@ -19,3 +19,26 @@ header
             
             
 
+.container
+    .slide
+        .imgs
+            display: flex
+            img
+                height: calc(100vh - 90px)
+                width: 100%
+                display: none
+            .visible
+                display: block
+    .btn_slide
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-top: -50px
+        i
+            color: #fff
+            font-size: 20px
+            background: transparent
+            margin-left: 20px
+        .active
+            border: 2px solid red
+            border-radius: 50%
